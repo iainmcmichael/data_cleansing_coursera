@@ -42,4 +42,4 @@ all$activityName <- sapply(all$activityName, function(index){c("walking","walkin
 #Create and output the Tidy Dataset
 tidyOutput <- aggregate(all, by=list("Activity"=all$activityName, "Subject"=all$subject), FUN=mean, na.rm=TRUE)
 write.table(tidyOutput,"NewData.txt", row.name=FALSE, sep="|")
-unlink("UCI HAR Dataset")
+unlink("UCI HAR Dataset",  recursive = TRUE, force = TRUE)
