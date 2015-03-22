@@ -9,8 +9,8 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 Check the README.txt file for further details about this dataset. 
 
-###Code Book
-The tidy data set contains the average of each variable for each activity and each subject.  The list of variables averaged is included below (note that all measurements have retained the units used in the original dataset):
+###Variables
+The tidy data set contains the average of each variable for each activity and each subject (two variables within the file).  The subject is field is the id field and the activity has been named as per the six mentioned above).  The list of variables averaged is included below (note that all measurements have retained the units used in the original dataset):
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Z
 * tBodyAcc-std()-Y
