@@ -1,4 +1,6 @@
- ### ReadMe
+## ReadMe
+
+###Overview
 The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
 
 There is a single script called run_analysis.R that does the following. 
@@ -13,4 +15,4 @@ There is a single script called run_analysis.R that does the following.
 
 Further information on the data set can be obtained at:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The version of data used in this project is:
+The version of data used in this project is was uploaded on 2012-12-10.
