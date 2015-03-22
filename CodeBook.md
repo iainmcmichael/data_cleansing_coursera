@@ -11,95 +11,95 @@ Check the README.txt file for further details about this dataset.
 
 ###Code Book
 The tidy data set contains the average of each variable for each activity and each subject.  The list of variables averaged is included below (note that all measurements have retained the units used in the original dataset):
-tBodyAcc-mean()-X
-tBodyAcc-mean()-Z
-tBodyAcc-std()-Y
-tGravityAcc-mean()-X
-tGravityAcc-mean()-Z
-tGravityAcc-std()-Y
-tBodyAccJerk-mean()-X
-tBodyAccJerk-mean()-Z
-tBodyAccJerk-std()-Y
-tBodyGyro-mean()-X
-tBodyGyro-mean()-Z
-tBodyGyro-std()-Y
-tBodyGyroJerk-mean()-X
-tBodyGyroJerk-mean()-Z
-tBodyGyroJerk-std()-Y
-tBodyAccMag-mean()
-tGravityAccMag-mean()
-tBodyAccJerkMag-mean()
-tBodyGyroMag-mean()
-tBodyGyroJerkMag-mean()
-fBodyAcc-mean()-X
-fBodyAcc-mean()-Z
-fBodyAcc-std()-Y
-fBodyAcc-meanFreq()-X
-fBodyAcc-meanFreq()-Z
-fBodyAccJerk-mean()-Y
-fBodyAccJerk-std()-X
-fBodyAccJerk-std()-Z
-fBodyAccJerk-meanFreq()-Y
-fBodyGyro-mean()-X
-fBodyGyro-mean()-Z
-fBodyGyro-std()-Y
-fBodyGyro-meanFreq()-X
-fBodyGyro-meanFreq()-Z
-fBodyAccMag-std()
-fBodyBodyAccJerkMag-mean()
-fBodyBodyAccJerkMag-meanFreq()
-fBodyBodyGyroMag-std()
-fBodyBodyGyroJerkMag-mean()
-fBodyBodyGyroJerkMag-meanFreq()
-angle(tBodyAccJerkMean),gravityMean)
-angle(tBodyGyroJerkMean,gravityMean)
-angle(Y,gravityMean)
-angle(tBodyAccJerkMean),gravityMean)" 
-angle(tBodyGyroJerkMean,gravityMean)                
-angle(Y,gravityMean)    
-tBodyAcc-mean()-Y
-tBodyAcc-std()-X
-tBodyAcc-std()-Z
-tGravityAcc-mean()-Y
-tGravityAcc-std()-X
-tGravityAcc-std()-Z
-tBodyAccJerk-mean()-Y
-tBodyAccJerk-std()-X
-tBodyAccJerk-std()-Z
-tBodyGyro-mean()-Y
-tBodyGyro-std()-X
-tBodyGyro-std()-Z
-tBodyGyroJerk-mean()-Y
-tBodyGyroJerk-std()-X
-tBodyGyroJerk-std()-Z
-tBodyAccMag-std()
-tGravityAccMag-std()
-tBodyAccJerkMag-std()
-tBodyGyroMag-std()
-tBodyGyroJerkMag-std()
-fBodyAcc-mean()-Y
-fBodyAcc-std()-X
-fBodyAcc-std()-Z
-fBodyAcc-meanFreq()-Y
-fBodyAccJerk-mean()-X
-fBodyAccJerk-mean()-Z
-fBodyAccJerk-std()-Y
-fBodyAccJerk-meanFreq()-X
-fBodyAccJerk-meanFreq()-Z
-fBodyGyro-mean()-Y
-fBodyGyro-std()-X
-fBodyGyro-std()-Z
-fBodyGyro-meanFreq()-Y
-fBodyAccMag-mean()
-fBodyAccMag-meanFreq()
-fBodyBodyAccJerkMag-std()
-fBodyBodyGyroMag-mean()
-fBodyBodyGyroMag-meanFreq()
-fBodyBodyGyroJerkMag-std()
-angle(tBodyAccMean,gravity)
-angle(tBodyGyroMean,gravityMean)
-angle(X,gravityMean)
-angle(Z,gravityMean)
-angle(tBodyGyroMean,gravityMean)
-angle(X,gravityMean)
-angle(Z,gravityMean)
+* tBodyAcc-mean()-X
+* tBodyAcc-mean()-Z
+* tBodyAcc-std()-Y
+* tGravityAcc-mean()-X
+* travityAcc-mean()-Z
+* tGravityAcc-std()-Y
+* tBodyAccJerk-mean()-X
+* tBodyAccJerk-mean()-Z
+* tBodyAccJerk-std()-Y
+* tBodyGyro-mean()-X
+* tBodyGyro-mean()-Z
+* tBodyGyro-std()-Y
+* tBodyGyroJerk-mean()-X
+* tBodyGyroJerk-mean()-Z
+* tBodyGyroJerk-std()-Y
+* tBodyAccMag-mean()
+* tGravityAccMag-mean()
+* tBodyAccJerkMag-mean()
+* tBodyGyroMag-mean()
+* tBodyGyroJerkMag-mean()
+* fBodyAcc-mean()-X
+* fBodyAcc-mean()-Z
+* fBodyAcc-std()-Y
+* fBodyAcc-meanFreq()-X
+* fBodyAcc-meanFreq()-Z
+* fBodyAccJerk-mean()-Y
+* fBodyAccJerk-std()-X
+* fBodyAccJerk-std()-Z
+* fBodyAccJerk-meanFreq()-Y
+* fBodyGyro-mean()-X
+* fBodyGyro-mean()-Z
+* fBodyGyro-std()-Y
+* fBodyGyro-meanFreq()-X
+* fBodyGyro-meanFreq()-Z
+* fBodyAccMag-std()
+* fBodyBodyAccJerkMag-mean()
+* fBodyBodyAccJerkMag-meanFreq()
+* fBodyBodyGyroMag-std()
+* fBodyBodyGyroJerkMag-mean()
+* fBodyBodyGyroJerkMag-meanFreq()
+* angle(tBodyAccJerkMean),gravityMean)
+* angle(tBodyGyroJerkMean,gravityMean)
+* angle(Y,gravityMean)
+* angle(tBodyAccJerkMean),gravityMean)" 
+* angle(tBodyGyroJerkMean,gravityMean)                
+* angle(Y,gravityMean)    
+* tBodyAcc-mean()-Y
+* tBodyAcc-std()-X
+* tBodyAcc-std()-Z
+* tGravityAcc-mean()-Y
+* tGravityAcc-std()-X
+* tGravityAcc-std()-Z
+* tBodyAccJerk-mean()-Y
+* tBodyAccJerk-std()-X
+* tBodyAccJerk-std()-Z
+* tBodyGyro-mean()-Y
+* tBodyGyro-std()-X
+* tBodyGyro-std()-Z
+* tBodyGyroJerk-mean()-Y
+* tBodyGyroJerk-std()-X
+* tBodyGyroJerk-std()-Z
+* tBodyAccMag-std()
+* tGravityAccMag-std()
+* tBodyAccJerkMag-std()
+* tBodyGyroMag-std()
+* tBodyGyroJerkMag-std()
+* fBodyAcc-mean()-Y
+* fBodyAcc-std()-X
+* fBodyAcc-std()-Z
+* fBodyAcc-meanFreq()-Y
+* fBodyAccJerk-mean()-X
+* fBodyAccJerk-mean()-Z
+* fBodyAccJerk-std()-Y
+* fBodyAccJerk-meanFreq()-X
+* fBodyAccJerk-meanFreq()-Z
+* fBodyGyro-mean()-Y
+* fBodyGyro-std()-X
+* fBodyGyro-std()-Z
+* fBodyGyro-meanFreq()-Y
+* fBodyAccMag-mean()
+* fBodyAccMag-meanFreq()
+* fBodyBodyAccJerkMag-std()
+* fBodyBodyGyroMag-mean()
+* fBodyBodyGyroMag-meanFreq()
+* fBodyBodyGyroJerkMag-std()
+* angle(tBodyAccMean,gravity)
+* angle(tBodyGyroMean,gravityMean)
+* angle(X,gravityMean)
+* angle(Z,gravityMean)
+* angle(tBodyGyroMean,gravityMean)
+* angle(X,gravityMean)
+* angle(Z,gravityMean)
